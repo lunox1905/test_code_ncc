@@ -106,19 +106,26 @@ body {
 	font-size: 24px;
 }
 
-.box_flex {
-	display: flex;
-}
-
-.box_flex img {
-	width: 128px;
-	height: 128px;
+.box_text {
+	width: 100%
 }
 
 .box_item p {
 	font-size: 16px;
 	font-weight: 400;
 	margin: 0;
+}
+
+.box_img {
+	width: 128px;
+    float: left;
+    overflow: hidden;
+    height: 128px;
+}
+
+.box_img img{
+	width: 100%;
+	height: 100%;
 }
 
 .footer {
