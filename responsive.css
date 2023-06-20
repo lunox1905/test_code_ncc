@@ -1,0 +1,58 @@
+/* Mobile & tablet */
+@media (max-width: 1123px) {
+	
+}
+
+/* Tablet */
+@media (min-width: 640px) and (max-width: 1123px) {
+	.box_bot {
+		display: block;
+	}
+
+	.box_item {
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	.box_item p {
+		font-size: 18px;
+	}
+
+	.box_flex {
+		display: block;
+		font-size: 18px;
+	}
+
+	.box_flex img {
+		width: 240px;
+		height: 240px;
+		margin: 10px auto;
+		display: block;
+	}
+
+	.box_top p {
+		margin: 40px 20px;
+	}
+
+	.sidebar_icon {
+		position: absolute;
+		top: 30px;
+		right: 10px;
+		display: block;
+		color: white;
+		font-size: 34px;
+	}
+
+	.sidebar {
+		width: 300px;
+	}
+
+	.sidebar div {
+		width: 300px;
+	}
+
+	.sidebar_item {
+		font-size: 30px;
+		padding: 30px 15px;
+	}
+}

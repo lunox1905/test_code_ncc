@@ -9,12 +9,15 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+	<link>
+	<link rel="stylesheet" href="responsive.css">
 
 </head>
 <body>
 	<div class="wrapper">
 		<div class="sidebar"> 
 			<div>
+				<i class="fas fa-list sidebar_icon"></i>
 				<ul class="sidebar_list">
 					<li class="sidebar_item">Home</li>
 					<li class="sidebar_item">Services</li>
@@ -66,4 +69,14 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	var sidebarIcon = document.querySelector('.sidebar_icon')
+	sidebarIcon.onclick = () => {
+		let s = document.querySelector('.sidebar')
+		if(s.closest('.hide')) {
+			s.classList.remove('hide')
+		}
+		else s.classList.add('hide')
+	}
+</script>
 </html>

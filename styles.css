@@ -102,6 +102,10 @@ body {
 	padding: 0 25px;
 }
 
+.box_item h3{
+	font-size: 24px;
+}
+
 .box_flex {
 	display: flex;
 }
@@ -125,4 +129,28 @@ body {
 .footer p {
 	margin: 30px 129px;
 	font-size: 16px;
+}
+
+.sidebar_icon {
+	display: none;
+}
+
+.sidebar.hide ul{
+	display: none;
+}
+
+.sidebar.hide div{
+	background-color: white;
+	min-width: 50px;
+	width: 50px;
+}
+
+.sidebar.hide {
+	background-color: white;
+	min-width: 50px;
+	width: 50px;
+}
+
+.sidebar.hide i{
+	color: black;
 }
